@@ -1,6 +1,6 @@
 {
-  "name": "LinkedIn Profile Visibility Swithcer",
-  "description": "Change profile visibility right from the top navigation bar.",
+  "name": "LinkedIn Profile Visibility Switcher",
+  "description": "Easily manage your profile visibility settings and enhance your privacy.",
   "manifest_version": 3,
   "version": "1.0",
   "content_scripts": [
@@ -9,6 +9,12 @@
       "js": ["scripts/contentScript.js"]
     }
   ],
+  "icons": {
+    "16": "assets/icon16.png",
+    "32": "assets/icon32.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  },
   "background": {
     "service_worker": "background.js"
   },
